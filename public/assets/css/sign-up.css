@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS ku dewe */
+body {
+    font: 16px/28px arial, sans-serif;
+}
+
+.container {
+    width: 1365px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.satu {
+    width: 35%;
+    background-color: #A6BB8D;
+    box-sizing: border-box;
+}
+
+.satu1 {
+    background-color: #A6BB8D;
+}
+
+.satu1 img {
+    width: 200px;
+}
+
+.satu2 {
+    width: 300px;
+    margin: auto;
+}
+
+.satu3 {
+    width: 200px;
+    margin: 50px auto;
+}
+
+.satu .ayat {
+    font-size: 20px;
+    color: #F5F5F5;
+    padding: 5px;
+    text-align: center;
+}
+
+.dua {
+    width: 65%;
+    height: 100vh;
+    background-color: #A6BB8D;
+}
+
+.dua1 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 43px 0px 0px 43px;
+
+}
+
+.dua11 {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: salmon; */
+    box-sizing: border-box;
+}
+
+.dua11 .language {
+    float: right;
+}
+
+.dua11 h1 {
+    font-weight: bold;
+}
+
+.dua11 .separator {
+    text-align: center;
+}
+
+.dua11 .icon_login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_google, .logo_facebook {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+.logo_google a, .logo_facebook a {
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+}
+
+.logo_google h1, .logo_facebook h1 {
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.icon_login img {
+    width: 30px;
+}
+
+#form {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    /* background-color: whitesmoke; */
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: none;
+    /* background-color: #F5F5F5; */
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+    width: 90%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d9d9d9;
+
+}
+
+button a {
+    text-decoration: none;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
