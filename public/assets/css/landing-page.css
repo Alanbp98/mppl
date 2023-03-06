@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS ku dewe */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #A6BB8D;
+}
+
+.navbar {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 7px 7px;
+}
+
+.col {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sign-up {
+    margin-right: 15px;
+}
+
+.sign-in {
+    margin-right: 25px;
+}
+
+.col a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #EAE7B1;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #3C6255;
+}
+
+.container .bannerImg {
+    background-color: #D9D9D9;
+    width: 87.5%;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.bannerImg h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #3C6255;
+    padding-top: 35px;
+}
+
+.bannerImg p {
+    font-size: 10px;
+    margin-top: 200px;
+    margin-left: 25px;
+    color: #61876E;
+}
+
+.program {
+    background-color: #61876E;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.program h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.program .bingkai {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.bingkai h1 {
+    color: #61876E;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+.program1, .program2, .program3 {
+    background-color: #D9D9D9;
+    width: 250px;
+    height: 330px;
+    border-radius: 7px;
+}
+
+.footer {
+    /* background-color: #3C6255; */
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.footer .footerAtas {
+    background-color: #3C6255;
+    width: 100%;
+    height: 325px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.rfAtas {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.rfAtas .linkcompany, .linkprogram, .linkother{
+    /* background-color: blue; */
+    width: 200px;
+    margin-top: 35px;
+    padding: 10px;
+    text-align: center;
+}
+
+.rfAtas h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rfAtas a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.rfBawah {
+    background-color: #EAE7B1;
+    width: 145px;
+    height: 70px;
+    float: right;
+    margin-top : 60px;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 15px 2px 0px 2px;
+    box-sizing: border-box;
+}
+
+.rfBawah a {
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+}
+
+.rfBawah img {
+    width: 70px;
+}
+
+.rfBawah h1 {
+    margin-top: 8px;
+}
+
+.footerBawah {
+    background-color: #EAE7B1;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBawah .rfAtas2 p {
+    margin-top: 25px;
+    margin-left: 75px;
+    color: #3C6255;
+}
+
+.footerBawah .rfBawah2 {
+    margin-top: 25px;
+    display: flex;
+    margin-right: 75px;
+}
+
+.footerBawah .rfBawah2 a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #3C6255;
+}
+
+.rfBawah2 img {
+    width: 40px;
+}
+
+.rfBawah2 .linkin img{
+    width: 30px;
+}
+
+.rfBawah2 .yt img{
+    width: 50px;
+}
