@@ -16,7 +16,7 @@
         <!--begin::hamburgerBar-->
         <div class="col">
             <button class="hamburger">
-                <div class="bar"> Toolbar</div>
+                <div class="bar"></div>
             </button>
         </div>
         <!--end::hamburgerBar-->
@@ -35,9 +35,7 @@
                 <label class="form-label fs-8 text-dark"></label>
                 <div class="input-group">
                     <select class="form-select text-dark fs-8" data-control="select2" data-placeholder="Pilih Select2" data-allow-clear="true">
-                        <option></option>
-                        <option value="us">English(US)</option>
-                        <option value="uk">English(UK)</option>
+                        <option>English(UK)</option>
                         <option value="idn">Indonesian</option>
                     </select>
                 </div>
@@ -45,6 +43,41 @@
         </div>
     </div>
     <!--end::Navbar-->
+    <!--begin::Page-Hamburger-->
+    <div class="nav-burger">
+        <div class="kategori">
+            <div class="ktg">
+                <p>Kategori</p>
+            </div>
+            <br>
+            <div class="list-kt">
+                <li>
+                    <ul class="l1"><a href="#">Zakat</a></ul>
+                    <ul class="l2"><a href="">Galang Dana</a></ul>
+                    <ul class="l3"><a href="">Qurban</a></ul>
+                </li>
+                <li>
+                    <ul class="l1"><a href="">Bantuan Pendidikan</a></ul>
+                    <ul class="l2"><a href="">Kegiatan Sosial</a></ul>
+                    <ul class="l3"><a href="">Bencana Alam</a></ul>
+                </li>
+                <li>
+                    <ul class="l1"><a href="">Pembangunan Masjid</a></ul>
+                    <ul class="l2"><a href="">Pembangunan Panti</a></ul>
+                    <ul class="l3"><a href="">Pembangunan Infrastruktur</a></ul>
+                </li>
+            </div>
+        </div>
+        <div class="kt-donasi">
+            <p>Donasi</p>
+            <ul>
+                <li>Nominal</li>
+                <li>Doa</li>
+                <li>Relawan</li>
+            </ul>
+        </div>
+    </div>
+    <!--end::Page-Hamburger-->
     <!--begin::Banner-->
     <div class="container">
         <!--begin::newsTitle-->
@@ -145,6 +178,17 @@
         </div>
     </div>
     <!--end::footer-->
+
+    <script>
+    const menu_btn = document.querySelector('.hamburger');
+	const menu_burger = document.querySelector('.nav-burger');
+
+	menu_btn.addEventListener('click', function (){
+		menu_btn.classList.toggle('is-active');
+		menu_burger.classList.toggle('is-active');
+	});
+    </script>
+
 </body>
 <!--end::Body-->
 </html>
